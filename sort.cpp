@@ -129,7 +129,7 @@ int main()
     }
 
     double start = omp_get_wtime();
-    // sbs(arr);
+    sbs(arr);
     double end = omp_get_wtime();
     cout << "Sequential bs" << end - start << endl;
 
